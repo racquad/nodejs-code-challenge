@@ -10,7 +10,17 @@ You can use your own tool (Postman, Insomnia etc) to call your API from your loc
 
 ## Setup
 
-At the top bar you will see a Fork button. By clicking in this button it will generate a new and unique URL. Keep it to you because this is your workspace. When you're done please share this link with your recruiter.
+This is a boilerplate you can start with. Just clone in your own machine and install the dependencies:
+
+```
+$ npm i
+```
+
+To run the server:
+
+```
+$ npm run dev
+```
 
 ## Task 1 - Fetch product list
 
