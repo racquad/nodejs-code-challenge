@@ -25,20 +25,21 @@ $ npm run dev
 ## Task 1 - Fetch product list
 
 - Write a GET call that will fetch all products available at https://dummyjson.com/products and return them sorted by title (A-Z).
-- Output product list must be an array of Product (see type definition);
+- Output product list must be an array of Product (see type definition).
 - Documentation is available at https://dummyjson.com/docs/products
 
 ## Task 2 - Login
 
 - Write a POST call that will take username and password from body and will authenticate against the endpoint https://dummyjson.com/auth/login
-- If credentials are invalid throw the proper HTTP error
-- As response use type User (see type definition)
+- If credentials are invalid throw the proper HTTP error.
+- As response use type User (see type definition).
 - Documentation is available at https://dummyjson.com/docs/auth
 
 ## Task 3 - Cart
 
-- Write a POST call that will add a product to the cart
-- It will read the payload using CartPayload as type (see type definition) and add to customer's cart (reside in memory for the code challenge)
-- You'll need to write a middleware to decode token and block and unauthorized attempt
-- Token payload has customer's ID and you should use that
-- Avoid product duplication
+- Write a POST call that will add a product to the cart.
+- For this task please do not use Dummy JSON solution. You should create your own implementation.
+- It will read the payload using CartPayload as type (see type definition) and add to customer's cart (reside in memory for the code challenge).
+- You'll need to write a middleware to decode token and block and unauthorized attempt.
+- Token payload has customer's ID and you should use that.
+- Avoid product duplication.
