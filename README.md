@@ -8,6 +8,8 @@ In /src/app.ts you will find the base code of our API. In /src/**tests**/app.ts 
 
 You can use your own tool (Postman, Insomnia etc) to call your API from your local computer once it's alive and running.
 
+This repository is public but not open for merge requests. You should clone it and send back your own repository.
+
 ## Setup
 
 This is a boilerplate you can start with. Just clone in your own machine and install the dependencies:
@@ -38,7 +40,7 @@ $ npm run dev
 ## Task 3 - Cart
 
 - Write a POST call that will add a product to the cart.
-- For this task please do not use Dummy JSON solution. You should create your own implementation.
+- For this task please do not use Dummy JSON Cart API. You should create your own implementation.
 - It will read the payload using CartPayload as type (see type definition) and add to customer's cart (reside in memory for the code challenge).
 - You'll need to write a middleware to decode token and block and unauthorized attempt.
 - Token payload has customer's ID and you should use that.
