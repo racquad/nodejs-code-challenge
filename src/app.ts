@@ -1,7 +1,7 @@
 import express, { Request, Response, NextFunction } from 'express';
 import json from 'body-parser';
 import fetch from 'node-fetch';
-import { Product } from './types';
+import { Product, CartContent } from './types';
 
 const app = express();
 
@@ -17,16 +17,13 @@ app.get('/products', async (req: Request, res: Response) => {
   res.send(products);
 });
 
-app.post('/products', async (req: Request, res: Response) => {
-  res.send();
-});
-
 app.post('/login', async (req: Request, res: Response) => {
   res.send();
 });
 
 app.post('/cart', async (req: Request, res: Response) => {
-  res.send();
+  const cartContent: CartContent;
+  res.send(cartContent);
 });
 
 app.use((req: Request, res: Response, next: NextFunction) => {

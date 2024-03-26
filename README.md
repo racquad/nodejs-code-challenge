@@ -42,6 +42,7 @@ $ npm run dev
 - Write a POST call that will add a product to the cart.
 - For this task please do not use Dummy JSON Cart API. You should create your own implementation.
 - It will read the payload using CartPayload as type (see type definition) and add to customer's cart (reside in memory for the code challenge).
-- You'll need to write a middleware to decode token and block and unauthorized attempt.
-- Token payload has customer's ID and you should use that.
+- You'll need to write a middleware to block and unauthorized attempt (documentation is available at https://dummyjson.com/docs/auth).
+- Token's payload has customer's ID and you should use that.
 - Avoid product duplication.
+- Return as payload the cart's grand total (sum of all products inside cart) and a list of products (refer to CartContent type).

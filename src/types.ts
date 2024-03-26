@@ -17,3 +17,8 @@ export type User = {
 export type CartPayload = {
   productId: number;
 };
+
+export type CartContent = {
+  grandTotal: number,
+  productList: Product[],
+};
