@@ -45,4 +45,4 @@ $ npm run dev
 - You'll need to write a middleware to block and unauthorized attempt (documentation is available at https://dummyjson.com/docs/auth).
 - Token's payload has customer's ID and you should use that.
 - Avoid product duplication.
-- Return as payload the cart's grand total (sum of all products inside cart) and a list of products (refer to CartContent type).
+- Return as payload the cart's grand total (sum of all products inside cart) and a list of products (refer to CartContent type). Don't forget the product discount, if applicable.

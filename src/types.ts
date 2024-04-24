@@ -4,6 +4,8 @@ export type Product = {
   description: string;
   price: number;
   thumbnail: string;
+  discountPercentage: number;
+  stock: number;
 };
 
 export type User = {
